@@ -1,0 +1,7 @@
+com/wx/mapper/VideosMapper.class
+com/wx/mapper/UsersFansMapper.class
+com/wx/mapper/PersonMapper.class
+com/wx/mapper/BgmMapper.class
+com/wx/mapper/CommentsMapper.class
+com/wx/mapper/UsersReportMapper.class
+com/wx/mapper/SearchRecordsMapper.class
