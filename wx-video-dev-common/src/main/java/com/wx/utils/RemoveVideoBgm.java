@@ -16,7 +16,7 @@ public class RemoveVideoBgm {
 		this.ffmpegEXE = ffmpegEXE;
 	}
 	
-	public void replaceBgm(String videoInputPath, String removeBgmPath, String outputPath ) throws IOException, InterruptedException {
+	public void replaceBgm(String videoInputPath, String outputPath ) throws IOException, InterruptedException {
 		
 		List<String> command = new ArrayList<>();
 		
@@ -52,6 +52,16 @@ public class RemoveVideoBgm {
 			errorStream.close();
 		}
 		
+	}
+	
+	public static void main(String arg[]) {
+		RemoveVideoBgm ffmpeg = new RemoveVideoBgm("/usr/local/Cellar/ffmpeg/4.2.1/bin/ffmpeg");
+		try {
+			ffmpeg.replaceBgm("/Users/ashsay/Downloads/a.mp4","/Users/ashsay/Downloads/c.mp4");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 }

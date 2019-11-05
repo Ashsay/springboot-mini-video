@@ -2,6 +2,7 @@
 /Users/ashsay/Documents/workspace-sts-3.9.10.RELEASE/wx-video-dev/wx-video-dev-mini-api/src/main/java/com/wx/controller/VideoController.java
 /Users/ashsay/Documents/workspace-sts-3.9.10.RELEASE/wx-video-dev/wx-video-dev-mini-api/src/main/java/com/wx/WarStartApplication.java
 /Users/ashsay/Documents/workspace-sts-3.9.10.RELEASE/wx-video-dev/wx-video-dev-mini-api/src/main/java/com/wx/controller/RegisterLoginController.java
+/Users/ashsay/Documents/workspace-sts-3.9.10.RELEASE/wx-video-dev/wx-video-dev-mini-api/src/main/java/com/wx/ZKCuratorClient.java
 /Users/ashsay/Documents/workspace-sts-3.9.10.RELEASE/wx-video-dev/wx-video-dev-mini-api/src/main/java/com/wx/WebMvcConfig.java
 /Users/ashsay/Documents/workspace-sts-3.9.10.RELEASE/wx-video-dev/wx-video-dev-mini-api/src/main/java/com/wx/controller/BgmController.java
 /Users/ashsay/Documents/workspace-sts-3.9.10.RELEASE/wx-video-dev/wx-video-dev-mini-api/src/main/java/com/wx/controller/interceptor/MiniInterceptor.java

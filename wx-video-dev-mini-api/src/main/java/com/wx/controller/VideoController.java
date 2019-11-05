@@ -89,7 +89,7 @@ public class VideoController extends BasicController {
 					coverPathDB = coverPathDB + "/" + fileNamePrefix + ".jpg";
 					
 					File outFile = new File(finalVideoPath);
-					if(outFile.getParentFile() != null || outFile.getParentFile().isDirectory()) {
+					if(outFile.getParentFile() != null || !outFile.getParentFile().isDirectory()) {
 						//创建父文件夹
 						outFile.getParentFile().mkdirs();
 					}

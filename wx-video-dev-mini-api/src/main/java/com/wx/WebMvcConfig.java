@@ -19,6 +19,11 @@ public class WebMvcConfig implements WebMvcConfigurer {
                 .addResourceLocations("file:/Users/ashsay/Documents/workspace-sts-3.9.10.RELEASE/wx-video-dev/uploads/")
                 .addResourceLocations("classpath:/META-INF/resources/");
     }
+    
+    @Bean(initMethod = "init")
+    public ZKCuratorClient zKCuratorClient() {
+    	return new ZKCuratorClient();
+    }
 	
     @Bean
     public MiniInterceptor miniInterceptor() {

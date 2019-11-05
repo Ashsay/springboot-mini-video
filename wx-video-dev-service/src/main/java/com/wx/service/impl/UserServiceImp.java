@@ -60,6 +60,7 @@ public class UserServiceImp implements UserService {
 		personMapper.insert(person);
 	}
 	
+	@Transactional(propagation = Propagation.REQUIRED)
 	@Override
 	public void updateUserInfo(Person person) {
 		// TODO Auto-generated method stub
