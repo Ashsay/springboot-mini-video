@@ -17,7 +17,8 @@ public class MergeVideoMp3 {
 
 	public void convertor(String videoInputPath, String mp3InputPath, double seconds, String videoOutputPath ) throws Exception {
 		
-		//ffmpeg -i input.mp4 -i bgm.mp3 -t -7 -y output.avi
+		//ffmpeg -i video.mp4 -i audio.mp3 -c:v copy -c:a aac -strict experimental -map 0:v:0 -map 1:a:0 -t second output.mp4
+
 		
 		List<String> command = new ArrayList<>();
 		command.add(ffmpegEXE);
@@ -26,9 +27,18 @@ public class MergeVideoMp3 {
 		command.add(videoInputPath);
 		command.add("-i");
 		command.add(mp3InputPath);
+		command.add("-c:v");
+		command.add("copy");
+		command.add("-c:a");
+		command.add("aac");
+		command.add("-strict");
+		command.add("experimental");
+		command.add("-map");
+		command.add("0:v:0");
+		command.add("-map");
+		command.add("1:a:0");
 		command.add("-t");
 		command.add(String.valueOf(seconds));
-		command.add("-y");
 		command.add(videoOutputPath);
 		
 		for (  String c : command ) {
@@ -63,7 +73,7 @@ public class MergeVideoMp3 {
 		
 		MergeVideoMp3 ffmpeg = new MergeVideoMp3("/usr/local/Cellar/ffmpeg/4.2.1/bin/ffmpeg");
 		try {
-			ffmpeg.convertor("/Users/ashsay/Downloads/a.mp4", "/Users/ashsay/Downloads/b.mp3", 28, "/Users/ashsay/Downloads/c.mp4");
+			ffmpeg.convertor("/Users/ashsay/Downloads/a.mp4", "/Users/ashsay/Downloads/b.mp3", 23, "/Users/ashsay/Downloads/c.mp4");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
