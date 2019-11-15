@@ -1,54 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-            
+                
+    
     
     <wb-module deploy-name="wx-video-dev-mini-api-2.1.9.RELEASE">
-                        
+                                
+        
         
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
-                        
+                                
+        
         
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-                        
+                                
+        
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-                        
+                                
+        
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
-                
+                        
+        
         <dependent-module archiveName="wx-video-dev-service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wx-video-dev-service/wx-video-dev-service">
-                        
+                                    
+            
             <dependency-type>uses</dependency-type>
-                    
+                                
+        
         </dependent-module>
-                
+                        
+        
         <dependent-module archiveName="wx-video-dev-mapper-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wx-video-dev-mapper/wx-video-dev-mapper">
-                        
+                                    
+            
             <dependency-type>uses</dependency-type>
-                    
+                                
+        
         </dependent-module>
-                
+                        
+        
         <dependent-module archiveName="wx-video-dev-pojo-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wx-video-dev-pojo/wx-video-dev-pojo">
-                        
+                                    
+            
             <dependency-type>uses</dependency-type>
-                    
+                                
+        
         </dependent-module>
-                
+                        
+        
         <dependent-module archiveName="wx-video-dev-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wx-video-dev-common/wx-video-dev-common">
-                        
+                                    
+            
             <dependency-type>uses</dependency-type>
-                    
+                                
+        
         </dependent-module>
-                        
+                                
+        
         
         <property name="context-root" value="wx-video-dev-mini-api"/>
-                        
+                                
+        
         
         <property name="java-output-path" value="/wx-video-dev-mini-api/target/classes"/>
-                    
+                            
+    
     
     </wb-module>
-        
+            
+
 
 </project-modules>

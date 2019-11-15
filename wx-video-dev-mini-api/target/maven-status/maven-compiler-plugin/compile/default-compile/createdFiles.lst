@@ -1,7 +1,12 @@
+com/wx/controller/interceptor/MiniInterceptor.class
 com/wx/controller/RegisterLoginController.class
 com/wx/controller/UserController.class
+com/wx/controller/VideoController.class
 com/wx/WebMvcConfig.class
+com/wx/controller/BgmController.class
 com/wx/Swagger2.class
 com/wx/WarStartApplication.class
+com/wx/ZKCuratorClient.class
 com/wx/Application.class
 com/wx/controller/BasicController.class
+com/wx/controller/HelloController.class

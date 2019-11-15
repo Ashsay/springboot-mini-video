@@ -163,7 +163,7 @@ public class VideoController extends BasicController {
 					MultipartFile file) throws Exception {
 		
 		// 文件保存的命名空间
-		String fileSpace = "/Users/ashsay/Documents/workspace-sts-3.9.10.RELEASE/wx-video-dev/uploads";
+		String fileSpace = FILE_SPACE;
 		if (StringUtils.isBlank(videoId) || StringUtils.isBlank(userId)) {
 			return WxJSONResult.errorMsg("用户和视频ID不能为空");
 		}

@@ -3,7 +3,6 @@ package com.wx.service.impl;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -28,7 +27,6 @@ import com.wx.pojo.vo.VideosVo;
 import com.wx.service.VideoService;
 import com.wx.utils.PagedResult;
 import com.wx.utils.TimeAgoUtils;
-import com.wx.utils.WxJSONResult;
 
 import tk.mybatis.mapper.entity.Example;
 import tk.mybatis.mapper.entity.Example.Criteria;

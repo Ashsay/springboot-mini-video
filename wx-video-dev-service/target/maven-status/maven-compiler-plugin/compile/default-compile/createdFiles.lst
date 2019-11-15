@@ -1,1 +1,6 @@
+com/wx/service/impl/UserServiceImp.class
 com/wx/service/UserService.class
+com/wx/service/impl/BgmServiceImp.class
+com/wx/service/impl/VideoServiceImp.class
+com/wx/service/VideoService.class
+com/wx/service/BgmService.class

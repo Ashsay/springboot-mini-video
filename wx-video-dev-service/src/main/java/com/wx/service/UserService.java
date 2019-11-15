@@ -1,7 +1,5 @@
 package com.wx.service;
 
-import org.jboss.netty.handler.codec.replay.VoidEnum;
-
 import com.wx.pojo.Person;
 import com.wx.pojo.UsersReport;;
 
